@@ -1,0 +1,58 @@
+.supervisor-devices-add-container{
+    margin-top: 6%;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.devices-add-details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 20px;
+}
+
+.device-field-wrapper input{
+    border: #bcc1ca 1px solid;
+    border-radius: 6px;
+    padding: 10px;
+    height: 50px;
+}
+.device-field-wrapper label{
+    font-size: large;
+}
+.device-field-wrapper textarea{
+    border: #bcc1ca 1px solid;
+    border-radius: 6px;
+    padding: 10px;
+    max-width:500px;
+    max-height: 300px;
+    min-height: 200px;
+
+}
+
+.device-image-previewer-section{
+    margin-top: 30px;
+
+}
+
+.device-action-buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.device-action-buttons-container button{
+    padding: 20px;
+}
